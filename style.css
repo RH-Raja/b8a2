@@ -69,3 +69,10 @@ section{
     display: grid;
     justify-content: center;
 }
+.cart-container{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    padding: 50px;
+
+}
