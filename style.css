@@ -1,0 +1,71 @@
+/* Work sans Front*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    padding: 15px 100px 15px 100px;
+    background: hsla(0, 23%, 97%, 0.951);
+    
+}
+.pnk, .pnk2{
+    color: #FF42A5;
+}
+/*.imgg{
+    
+
+    
+}*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+}
+.btn{
+    padding: 5px;
+    width: 202px;
+    height: 22px;
+    border-radius: 8px;
+    background: #989898
+    
+}
+
+.fstone img{
+    width: 501px;
+    height: 700px;
+}
+.got{
+    font-size: 95px;
+    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
+.scndone{
+    
+    margin-right: 200px;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.online, .ol{
+    display: grid;
+    justify-content: center;
+}
